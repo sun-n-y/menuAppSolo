@@ -1,11 +1,14 @@
 import { useState } from 'react';
 import menu from './data';
+import Title from './Title';
 
 function App() {
   const [menuItems, setMenuItems] = useState(menu);
   return (
     <>
-      <h1>gi</h1>
+      <main>
+        <Title title={'our menu'} />
+      </main>
     </>
   );
 }
